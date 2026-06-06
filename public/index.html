@@ -1,0 +1,63 @@
+
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <title>Chat</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <p class="notice">새로운 메시지를 확인하려면 새로고침해주세요<br>개발&운영: 크로바츠</p>
+    <h1>Chat</h1>
+    <div class="nickname">
+      닉네임: <input type="text" value="테스트용 더미2">
+      <button>저장</button>
+      <button>변경</button>
+    </div>
+  </header>
+
+  <main class="layout">
+    <section class="rooms">
+      <h2>방 목록</h2>
+      <div class="search">
+        <input type="text">
+        <button>검색</button>
+      </div>
+      <ul>
+        <li>수다떨자 by 테스트용 더미 <button>입장</button></li>
+        <li>잡담다수 by 테스트용 더미2 <button>입장</button> <button class="danger">삭제</button></li>
+      </ul>
+
+      <h3>방 만들기</h3>
+      <div class="create">
+        <input placeholder="방 이름">
+        <label><input type="checkbox"> 비밀번호</label>
+        <input placeholder="비밀번호">
+        <button>생성</button>
+      </div>
+    </section>
+
+    <section class="chat">
+      <h2>방: 1764309054032</h2>
+      <div class="chatbox">
+        <p>테스트용 더미2님이 입장했습니다.</p>
+        <p>테스트용 더미님이 입장했습니다.</p>
+        <p>오후 2:51:13 테스트용 더미: https://my-chat-il2v.onrender.com/</p>
+      </div>
+      <div class="input">
+        <input placeholder="메시지 입력">
+        <button>전송</button>
+      </div>
+    </section>
+
+    <aside class="users">
+      <h3>접속자</h3>
+      <ul>
+        <li>테스트용 더미2</li>
+        <li>테스트용 더미</li>
+      </ul>
+    </aside>
+  </main>
+</body>
+</html>
